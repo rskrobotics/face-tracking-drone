@@ -1,9 +1,10 @@
 from AuxillaryFunctions import *
 import cv2, time
 
+#Constants
 W, H = 720 , 480
 PID = [0.1937, 0.2039, 0]
-startDrone = 1
+StartDrone = 1
 pError_x = 0
 pError_y = 0
 # Initialize the drone
